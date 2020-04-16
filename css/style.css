@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+    color: #f2eaec !important;
+    font-family: 'Ubuntu', sans-serif !important;
+     background: #A6E1FA;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(45.34deg, #00072D 5.66%, #0A2472 50.01%, #A6E1FA 94.35%);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45.34deg, #00072D 5.66%, #0A2472 50.01%, #A6E1FA 94.35%);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
+main{
+    flex: 1 0 auto;
+}
+nav{
+    background-color:none !important;
+}
+.navbar-brand{
+    color: #f2eaec !important;
+    border-color: #f2eaec !important;
+    font-size: 1.5rem !important;
+}.nav-link{
+    font-size: 1.2rem !important;
+}
+.nav-link:hover{
+    color: #f2eaec !important;
+}
+.footer-copyright{
+    color: #303242;
+}
+.btn-primary{
+    background-color: #0A2472 !important;
+    outline: none !important;
+    border: 2px solid #f2eaec !important;
+}
+.btn-primary:hover{
+    background-color: #f2eaec !important;
+    color: #00072D !important;
+}
+hr{
+    width: 10% !important;
+    background-color: #f2eaec !important;
+}
+.cv{
+    text-decoration: none !important;
+    color: #f2eaec !important;
+}
+.cv:hover{
+    color: #303242 !important;
+}
