@@ -40,17 +40,24 @@ nav{
     color: #f2eaec !important;
     border-bottom: 1px solid #f2eaec !important;
 }
+
+.form-control{
+    background-color: transparent !important;
+    color: #f2eaec !important;
+}
 .footer-copyright{
     color: #303242;
 }
 .btn-primary{
-    background-color: #0A2472 !important;
+    background-color: transparent !important;
     outline: none !important;
-    border: 2px solid #f2eaec !important;
+    border: px solid #f2eaec !important;
 }
 .btn-primary:hover{
     background-color: #f2eaec !important;
     color: #00072D !important;
+    border-radius: 50px !important;
+    transition: all 1s ease-in-out;
 }
 hr{
     width: 10% !important;
