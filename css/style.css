@@ -40,10 +40,18 @@ nav{
     color: #f2eaec !important;
     border-bottom: 1px solid #f2eaec !important;
 }
-
 .form-control{
     background-color: transparent !important;
     color: #f2eaec !important;
+}
+.social a img{
+  border-color: #f2eaec;
+}
+.footer{
+  display:flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
 }
 .footer-copyright{
     color: #303242;
@@ -51,25 +59,17 @@ nav{
 .btn-primary{
     background-color: transparent !important;
     outline: none !important;
-    border: px solid #f2eaec !important;
+    border: 1px solid #f2eaec !important;
 }
 .btn-primary:hover{
     background-color: #f2eaec !important;
     color: #00072D !important;
     border-radius: 50px !important;
-    transition: all 1s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 hr{
     width: 10% !important;
     background-color: #f2eaec !important;
-}
-.cv{
-    text-decoration: none !important;
-    color: #f2eaec !important;
-    cursor: pointer;
-}
-.cv:hover{
-    color: #303242 !important;
 }
 .bubbly-buton{
     transition: transform ease-in 0.1s, box-shadow ease-in 0.25s !important;

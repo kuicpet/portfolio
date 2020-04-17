@@ -7,8 +7,10 @@
         <meta name="description" content="profile">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Baloo+Paaji+2|Ubuntu&display=swap" rel="stylesheet">
+       
     </head>
     <body>
         <header>
@@ -38,7 +40,9 @@
            <div class="container my-3 px-5">
                 <div class="row">
                     <div class="col-sm-5 text-center">
-                        <img src="https://res.cloudinary.com/kuic/image/upload/v1566490915/startNg2019/kuic_jxb4la.jpg" class="img-fluid"alt="Photo of Kingsley Umujeyan">
+                      <div class="frame">
+                          <img src="https://res.cloudinary.com/kuic/image/upload/v1566490915/startNg2019/kuic_jxb4la.jpg" class="img-fluid"alt="Photo of Kingsley Umujeyan">
+                      </div>
                         <h3 class="my-2">Bio</h3><hr>
                         <p class="text-justify"><b>Name:</b> Kingsley Umujeyan </p>
                         <p class="text-justify"><b>State of Origin</b>: Delta</p>
@@ -53,13 +57,14 @@
                         <div class="my-3 py-5" id="about">
                           <h3>A Little Bit About Me</h3><hr>
                           <p class="text-justify">
-                            Kingsley is Self-Taught FrontEnd Developer with 2years experience and always ready to learn
+                            Kingsley is Self-Taught FrontEnd Developer based in Nigeria and always ready to learn
                             new Technologies,working towards Full-Stack presently,when not Coding or Learning, he is an Ecoprenuer.
                           </p>
                           <p><b>Some of my Interest:</b> UX/UI,Web Development,Environmental Sustainbility . . .</p>
                           <p><b>My Hobbies:</b> Cooking,Football . . .</p>
                           <div class="text-center">
-                            <a href="https://kuicpet.github.io/" class="cv" target="_blank" rel="noreferrer noopener">View CV</a>
+                            <a href="https://kuicpet.github.io/"  target="_blank" rel="noreferrer noopener">
+                              <button type="submit" class="btn btn-primary cv px-5 bubbly-button">View CV</button></a>
                           </div>
                         </div>
                         <div class="my-3" id="contact">
@@ -94,9 +99,14 @@
                 </div>
            </div>
         </main>
-        <footer>
+        <footer class="footer">
+            <div class="text-center">
+                <a class="mx-4 social" href="https://facebook.com/umujeyankingsley" target="_blank" rel="noreferrer noopener"><img class="facebook" src="./css/icons/facebook.svg" alt="facebook"></a>
+                <a  class=" social" href="https://twitter.com/kuicpet" target="_blank" rel="noreferrer noopener"><img class="facebook" src="./css/icons/twitter.svg" alt="twitter"></a>
+                <a class="mx-4 social" href="https://github." target="_blank" rel="noreferrer noopener"><img class="facebook" src="./css/icons/github.svg" alt="github"></a>
+            </div>
             <div class="text-center p-3">
-                <small>&copy; Copyright 2020 KIngsleyUmujeyan</small>
+                <small class="text-center">&copy;2020 KIngsleyUmujeyan</small>
             </div>
         </footer>
         <script src="script.js" async defer></script>
