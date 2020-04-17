@@ -44,9 +44,6 @@ nav{
     background-color: transparent !important;
     color: #f2eaec !important;
 }
-.social a img{
-  border-color: #f2eaec;
-}
 .footer{
   display:flex;
   flex-direction: column;
