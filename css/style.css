@@ -64,6 +64,18 @@ nav{
 .footer-copyright{
     color: #303242;
 }
+#facebook,#twitter,#github{
+  stroke: #f2eaec;
+}
+#facebook:hover{
+  fill: #f2eaec;
+}
+#twitter:hover{
+  fill: #f2eaec;
+}
+#github:hover{
+  fill: #f2eaec;
+}
 .btn-primary{
     background-color: transparent !important;
     outline: none !important;
